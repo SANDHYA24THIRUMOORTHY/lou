@@ -1,11 +1,15 @@
+
+import React from 'react';
+import Sidebar from './Sidebar'; 
 import Loureq from "./Loureq";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-        <Loureq/>
+      <Loureq/>
+      <Sidebar />
     </div>
   );
-}
+};
 
 export default App;
