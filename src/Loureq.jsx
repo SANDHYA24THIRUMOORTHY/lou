@@ -3,6 +3,7 @@ import {Button,Grid} from '@mui/material';
 const Loureq = () => {
   const [formData, setFormData] = useState({
     applicantName: '',
+    contactInformation: '',
     applicantAddress: '',
     purpose: '',
     transactionDetails: '',
@@ -10,7 +11,6 @@ const Loureq = () => {
     securityRequirements: '',
     authorizedSignatories: '',
     legalReview: '',
-    contactInformation: '',
     applicableLaw: '',
     notarization: '',
   });
@@ -30,6 +30,7 @@ const Loureq = () => {
     // Clear form data after submission
     setFormData({
       applicantName: '',
+      contactInformation: '',
       applicantAddress: '',
       purpose: '',
       transactionDetails: '',
@@ -37,7 +38,6 @@ const Loureq = () => {
       securityRequirements: '',
       authorizedSignatories: '',
       legalReview: '',
-      contactInformation: '',
       applicableLaw: '',
       notarization: '',
     });
@@ -59,6 +59,15 @@ const Loureq = () => {
             <td>
                 <label>
                 <input type="text" name="applicantName" value={formData.applicantName} onChange={handleInputChange} required />
+                </label>
+            </td>
+          </tr>
+          <br></br>
+          <tr>
+            <td>MOBILE NO :</td>
+            <td>
+                <label>
+                <input type="number" name="contactInformation" value={formData.contactInformatione} onChange={handleInputChange} required />
                 </label>
             </td>
           </tr>
