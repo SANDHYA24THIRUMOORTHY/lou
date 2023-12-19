@@ -14,7 +14,7 @@ function Login() {
   const { setUser } = useContext(UserContext);
 
   useEffect(() => {
-    axios.get('https://65643730ceac41c0761da0dd.mockapi.io/api/v1/users')
+    axios.get('https://658159793dfdd1b11c430784.mockapi.io/todo')
       .then(response => setUsers(response.data))
       .catch(error => console.error('Error:', error));
   }, []);

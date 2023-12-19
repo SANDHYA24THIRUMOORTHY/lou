@@ -26,7 +26,7 @@ const Register = () => {
    const { setUser } = useContext(UserContext); 
 
   const checkUserExists = async (username) => {
-      const response = await axios.get('https://65643730ceac41c0761da0dd.mockapi.io/api/v1/users');
+      const response = await axios.get('https://658159793dfdd1b11c430784.mockapi.io/todo');
       return response.data.some(user => user.username === username);
   };
 
@@ -35,7 +35,7 @@ const Register = () => {
     const userExists = await checkUserExists(signupDetails.username);
     if (userExists) {
       console.log('User already exists. Redirecting to login...');
-      navigate('/');
+      navigate('/login');
       return;
     }
 
@@ -44,11 +44,11 @@ const Register = () => {
       return;
     }
 
-    axios.post('https://65643730ceac41c0761da0dd.mockapi.io/api/v1/users', signupDetails)
+    axios.post('https://658159793dfdd1b11c430784.mockapi.io/todo', signupDetails)
       .then(response => {
         console.log('Signup successful:', response.data);
         setUser(response.data);
-        navigate('/');
+        navigate('/sidebar');
       })
       .catch(error => {
         console.error('Signup error:', error);
