@@ -1,0 +1,63 @@
+Loudoc.css
+
+
+header {
+    background-color: #5678c0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  footer {
+    background-color: #5678c0;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .h{
+    display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+  }
+
+  .success {
+    color: green;
+  }
+
+  .error {
+    color: red;
+  }
+  
+
+  .terms-box {
+    border: 1px solid #85d0e5;
+    padding: 25px;
+    margin: 50px 0;
+    background-color: #7ebfd4;
+  }
+  
+  .highlight {
+    color: #eeedf3; /* Change the color to your desired highlight color */
+  }
+
+  input[type="file"] {
+    margin-bottom: 15px;
+  }
+
+.s {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00b348;
+  }
