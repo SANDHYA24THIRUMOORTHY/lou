@@ -12,11 +12,13 @@ body {
 {
    padding-left: 600px;
    padding-top: 300px;
+   border-color: 1px solid black;
 }
 .sb
 {
     height: 100px;
     width: 500px;
     border-radius: 30px;
-    background-color: color-mix(in srgb-linear, blue 30%, orange 70%);
+    background-color: color-mix(in srgb-linear, rgb(0, 140, 255) 50%, rgb(0, 208, 255) 50%);
 }
+

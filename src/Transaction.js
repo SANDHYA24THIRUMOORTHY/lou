@@ -1,6 +1,7 @@
 // Transaction.js
 
 import React from 'react';
+import './Transaction.css';
 
 const Transaction = () => {
   // Assuming you have transaction data, replace this with your actual data
