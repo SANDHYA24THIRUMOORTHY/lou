@@ -257,7 +257,7 @@ const Loureq = () => {
             <tr>
                 <td colSpan="2" style={{ textAlign: 'center' }}>
                   <Link to="/loudoc">
-                  <button type="submit">Next Page</button>
+                  <button type="submit" className='bt'>Next Page</button>
                   </Link>
                 </td>
             </tr>

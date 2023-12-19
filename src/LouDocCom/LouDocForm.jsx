@@ -46,15 +46,48 @@ const LouDocForm = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>
-        <h2>Select Document:</h2>
-        <input
-          type="file"
-          onChange={handleFileChange}
-          accept={allowedFileTypes.join(',')}
-          disabled={!termsAgreed}
-        />
-      </label>
+    <h3 className='op'>SELECT DOCUMENT :</h3>
+    <table className='hp'>
+    <tr>
+    <td><b>PASSPORT SIZE PHOTO :</b></td>
+    <td>
+    <label>
+    <input
+    type="file"
+    onChange={handleFileChange}
+    accept={allowedFileTypes.join(',')}
+    disabled={!termsAgreed}
+    />
+    </label>
+    </td>
+    </tr>
+    <tr>
+    <td><b>SIGNATURE :</b></td>
+    <td>
+    <label>
+    <input
+    type="file"
+    onChange={handleFileChange}
+    accept={allowedFileTypes.join(',')}
+    disabled={!termsAgreed}
+    />
+    </label>
+    </td>
+    </tr>
+    <tr>
+    <td><b>AADHAR CARD :</b></td>
+    <td>
+    <label>
+    <input
+    type="file"
+    onChange={handleFileChange}
+    accept={allowedFileTypes.join(',')}
+    disabled={!termsAgreed}
+    />
+    </label>
+    </td>
+    </tr>
+    </table>
       <div>
         <label>
           <input

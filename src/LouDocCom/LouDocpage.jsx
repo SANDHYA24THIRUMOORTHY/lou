@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import Louheader from './Louheader';
 import LouDocForm from './LouDocForm';
 import LouDocList from './LouDocList';
-import Louterms from './Louterms';
 import Loufooter from './Loufooter';
-import Louheader from './Louheader';
 import './Loudoc.css';
 
 const LouDocPage = () => {
@@ -19,7 +18,6 @@ const LouDocPage = () => {
     <div>
       <Louheader />
       <div className="main-content">
-        <Louterms />
         <LouDocForm onSubmit={handleSubmit} />
         <LouDocList documents={documents} />
       </div>
