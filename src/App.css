@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("https://t4.ftcdn.net/jpg/02/36/19/51/360_F_236195116_IWbsVnjfNpwfioW6eHgIXoIqlif9ZXei.jpg") center center fixed;
+  background-size: cover;
+  height: 100vh; /* Ensure full viewport height */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00b348;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+header {
+  background-color: #5678c0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+footer {
+  background-color: #5678c0;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.terms-box {
+  border: 1px solid #85d0e5;
+  padding: 25px;
+  margin: 50px 0;
+  background-color: #7ebfd4;
+}
+
+.highlight {
+  background-color: #5678c0;
+  color: #eeedf3; /* Change the color to your desired highlight color */
+}
