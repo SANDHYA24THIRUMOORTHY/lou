@@ -1,3 +1,13 @@
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4MC1hdW0tMDkta3A2amFjdGIuanBn.jpg'); /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* This ensures that the background covers the entire viewport height */
+  }
+
 .out
 {
    padding-left: 600px;
@@ -6,8 +16,8 @@
 }
 .sb
 {
-    height: 50px;
-    width: 100px;
+    height: 100px;
+    width: 500px;
     border-radius: 30px;
     background-color: color-mix(in srgb-linear, rgb(0, 140, 255) 50%, rgb(0, 208, 255) 50%);
 }
