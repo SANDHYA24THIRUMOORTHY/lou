@@ -7,7 +7,7 @@ import Transaction from './Transaction';
 import Sidebar from './Sidebar';
 import { UserProvider } from './UserContext';
 import Loureq from './Loureq';
-import Loudoc from './Loudoc';
+import LouDocPage from './LouDocCom/LouDocpage';
 import LoanList from './LoanList';
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
         <Route path='/sidebar' element={<Sidebar/>}></Route>
         <Route path='/trans' element={<Transaction/>}></Route>
         <Route path='/req' element={<Loureq/>}></Route>
-        <Route path='/loudoc' element={<Loudoc/>}></Route>
+        <Route path='/loudoc' element={<LouDocPage/>}></Route>
         <Route path='/loan' element={<LoanList/>}></Route>
         
     </Routes>
