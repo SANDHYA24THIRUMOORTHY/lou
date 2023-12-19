@@ -19,7 +19,7 @@
   }
 
 
-  table {
+  .lo {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -27,7 +27,7 @@
   }
   
   
-td, th {
+.r {
     padding: 15px; /* Add padding to each cell */
     text-align: left;
   }

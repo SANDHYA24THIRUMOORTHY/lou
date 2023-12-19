@@ -38,7 +38,7 @@
     box-sizing: border-box;
   }
   
-  button {
+  .bt {
     width: 100%;
     padding: 10px;
     background-color: #3a4af5;
@@ -48,9 +48,7 @@
     cursor: pointer;
   }
   
-  button:hover {
-    background-color: #45a049;
-  }
+  
   .z{
     font-size: small;
   }

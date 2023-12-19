@@ -24,15 +24,15 @@ const LoanList = () => {
 
   return (
     <div>
-      <h2>Loan List</h2>
-      <table>
+      <h2 >Loan List</h2>
+      <table className='lo'>
         <thead>
           <tr>
-            <th>Type</th>
-            <th>Loan Amount</th>
-            <th>Pending Amount</th>
-            <th>Status</th>
-            <th>Bank</th>
+            <th className='r'>Type</th>
+            <th className='r'>Loan Amount</th>
+            <th className='r'>Pending Amount</th>
+            <th className='r'>Status</th>
+            <th className='r'>Bank</th>
           </tr>
         </thead>
         <tbody>

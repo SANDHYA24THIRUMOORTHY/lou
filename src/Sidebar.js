@@ -86,7 +86,9 @@ const Sidebar = () => {
               <li>
                 <a href="#">
                   <i className="icon ph-bold ph-calendar-blank"></i>
+                  <Link to="/loan">
                   <span className="text">Loan</span>
+                  </Link>
                 </a>
               </li>
               <li>

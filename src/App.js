@@ -8,6 +8,7 @@ import Sidebar from './Sidebar';
 import { UserProvider } from './UserContext';
 import Loureq from './Loureq';
 import Loudoc from './Loudoc';
+import LoanList from './LoanList';
 const App = () => {
   return (
     <UserProvider>
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/trans' element={<Transaction/>}></Route>
         <Route path='/req' element={<Loureq/>}></Route>
         <Route path='/loudoc' element={<Loudoc/>}></Route>
+        <Route path='/loan' element={<LoanList/>}></Route>
         
     </Routes>
     </BrowserRouter>

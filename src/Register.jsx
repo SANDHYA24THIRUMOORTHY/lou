@@ -264,7 +264,7 @@ const Register = () => {
             <tr>
                 <td colSpan="2" style={{ textAlign: 'center' }}>
                   <Link to="/sidebar">
-                  <button type="submit">Register</button>
+                  <button type="submit" className='bt'>Register</button>
                   </Link>
                 </td>
             </tr>

@@ -1,0 +1,12 @@
+.out
+{
+   padding-left: 600px;
+   padding-top: 300px;
+}
+.sb
+{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: color-mix(in srgb-linear, blue 30%, orange 70%);
+}

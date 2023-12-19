@@ -8,11 +8,11 @@ const Loan = ({ loan }) => {
 
   return (
     <tr className={`loan-row ${status}`}>
-      <td>{type}</td>
-      <td>${loanAmount}</td>
-      <td>${pendingAmount}</td>
-      <td>{status === 'active' ? 'Active' : 'Completed'}</td>
-      <td>{bankName}</td>
+      <td className='r'>{type}</td>
+      <td className='r'>${loanAmount}</td>
+      <td className='r'>${pendingAmount}</td>
+      <td className='r'>{status === 'active' ? 'Active' : 'Completed'}</td>
+      <td className='r'>{bankName}</td>
     </tr>
   );
 };
