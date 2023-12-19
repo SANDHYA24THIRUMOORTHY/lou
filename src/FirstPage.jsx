@@ -20,10 +20,10 @@ export default function FirstPage() {
         
       <div className='content-container'>
       
-        <div className='button-container'>
+        <div >
         <h3>IF YOU ARE AN ADMIN,CLICK HERE</h3>
         <Link to='/admin'>
-        <button className='sb' onClick={handleAdminClick} aria-label="Admin"><h1>
+        <button className='sb' onClick={handleAdminClick} aria-label="Admin" ><h1>
         ADMIN
         </h1></button>
         </Link>

@@ -89,18 +89,27 @@ const LouDocForm = ({ onSubmit }) => {
     </tr>
     </table>
       <div>
-        <label>
-          <input
-            type="checkbox"
-            checked={termsAgreed}
-            onChange={(e) => handleTermsAgree(e.target.checked)}
-          />
-          I agree to the terms and conditions
-        </label>
+      <table className='er'>
+      <tr>
+      <td>
+      <label>
+      <br></br>
+      <input
+      type="checkbox"
+      checked={termsAgreed}
+      onChange={(e) => handleTermsAgree(e.target.checked)}
+      />
+      </label>
+      </td>
+      <td>
+      &nbsp;&nbsp;I agree to the terms and conditions
+      </td>
+      </tr>
+      </table>
       </div><br></br>
       {error && <div className="error">{error}</div>}
       
-      <button type="submit" disabled={!document || !termsAgreed}>
+      <button type="submit" disabled={!document || !termsAgreed} className='sub'>
         Submit
       </button>
     </form>

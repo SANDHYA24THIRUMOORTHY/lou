@@ -16,11 +16,11 @@ body {
 }
 .sb
 {
-    height: 100px;
-    width: 500px;
+    height: 70px;
+    width: 300px;
     border-radius: 30px;
-    background-color: color-mix(in srgb-linear, rgb(0, 140, 255) 50%, rgb(0, 208, 255) 50%);
-    margin-bottom: 10px;
+    background-color: color-mix(in srgb-linear, rgb(91, 169, 230) 50%, rgb(132, 104, 202) 50%);
+    margin-bottom: 20px;
 }
 /* FirstPage.css */
 
@@ -46,9 +46,4 @@ body {
     align-items: center;
     padding-left: 200px;
   }
-  
-  .button-container {
-    padding: 20px; /* Add padding as needed */
-  }
-  
   

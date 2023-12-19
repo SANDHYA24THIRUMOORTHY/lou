@@ -69,6 +69,7 @@ Loudoc.css
   .qw
   {
     text-align: center;
+    padding-right: 40px;
   }
 
   .op
@@ -79,4 +80,23 @@ Loudoc.css
   .hp
   {
     padding-left: 550px;
+  }
+
+  .er{
+    padding-left: 590px;
+  }
+
+  .sub{
+        width: 8%;
+        padding: 10px;
+        background-color: #3a4af5;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 675px;
+  }
+
+  .p{
+    padding-left: 633px;
   }

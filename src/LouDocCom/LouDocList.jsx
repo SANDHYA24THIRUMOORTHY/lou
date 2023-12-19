@@ -9,9 +9,10 @@ const LouDocList = ({ documents }) => {
 
   return (
     <div>
-      <h3>Submitted Documents :</h3>
+    <br></br>
+      <h3 className='qw'>Submitted Documents :</h3>
       {documents.length === 0 ? (
-        <p>No documents submitted yet.</p>
+        <p className='p'>No documents submitted yet.</p>
       ) : (
         <div>
           {documents.map((document, index) => (
@@ -21,7 +22,7 @@ const LouDocList = ({ documents }) => {
           ))}
           {selectedDocument && (
             <div>
-              <h3>Selected Document Details</h3>
+              <h3 className='qw'>Selected Document Details</h3>
               <p>Name: {selectedDocument.name}</p>
               <p>Size: {selectedDocument.size} bytes</p>
               <p>Type: {selectedDocument.type}</p>

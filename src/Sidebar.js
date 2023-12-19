@@ -51,7 +51,7 @@ const Sidebar = () => {
               <li>
                   <i className="icon ph-bold ph-house-simple"></i>
                   <Link to="/req">
-                  <span className="text">Profile</span>
+                  <span className="text">LOU Request</span>
                   </Link>
               </li>
               <li>
