@@ -9,6 +9,8 @@ import { UserProvider } from './UserContext';
 import Loureq from './Loureq';
 import LouDocPage from './LouDocCom/LouDocpage';
 import LoanList from './LoanList';
+import AdminLogin from './AdminLogin';
+
 const App = () => {
   return (
     <UserProvider>
@@ -23,6 +25,7 @@ const App = () => {
         <Route path='/req' element={<Loureq/>}></Route>
         <Route path='/loudoc' element={<LouDocPage/>}></Route>
         <Route path='/loan' element={<LoanList/>}></Route>
+        <Route path='/admin' element={<AdminLogin/>}></Route>
         
     </Routes>
     </BrowserRouter>

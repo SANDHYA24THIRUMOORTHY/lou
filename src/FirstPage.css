@@ -20,5 +20,35 @@ body {
     width: 500px;
     border-radius: 30px;
     background-color: color-mix(in srgb-linear, rgb(0, 140, 255) 50%, rgb(0, 208, 255) 50%);
+    margin-bottom: 10px;
 }
+/* FirstPage.css */
 
+.page-container {
+    display: flex;
+  }
+  
+  .side-panel {
+    width: 50%; /* Set the width for the side panel */
+    overflow: hidden; /* Ensure the image doesn't overflow */
+  }
+  
+  .side-panel-image {
+    width: 100%; /* Make the image fill the side panel */
+    height: 100vh; /* Set the height to cover the entire viewport */
+    object-fit: cover; /* Maintain aspect ratio and cover the side panel */
+  }
+  
+  .content-container {
+    width: 50%; /* Set the width for the content container */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+  }
+  
+  .button-container {
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  

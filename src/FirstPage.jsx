@@ -11,26 +11,38 @@ export default function FirstPage() {
     // Implement logic for handling admin button click
     console.log('Admin button clicked');
   };
-
   return (
-    <div className='out'>
-      <button className='sb' onClick={handleAdminClick} aria-label="Admin">
+    <div className='page-container'>
+      <div className='side-panel'>
+        {/* Replace 'image-url.jpg' with the URL of your desired image */}
+        <img src='https://www.shutterstock.com/image-vector/access-control-fingerprint-security-cybersecurity-600nw-2274134989.jpg' className='side-panel-image' />
+      </div>
+        
+      <div className='content-container'>
+      
+        <div className='button-container'>
+        <h3>IF YOU ARE AN ADMIN,CLICK HERE</h3>
+        <Link to='/admin'>
+        <button className='sb' onClick={handleAdminClick} aria-label="Admin"><h1>
         ADMIN
-      </button>
-      <br></br>
-      <br></br>
-      {userLoggedIn ? (
-        <Link to="/Logout">
-          <button className='sb'>LOGOUT</button>
+        </h1></button>
         </Link>
-      ) : (
-        <>
-          <Link to="/Login">
-            <button className='sb'>LOGIN</button>
-          </Link>
-          
-        </>
-      )}
+          <br />
+          {userLoggedIn ? (
+            <Link to="/Logout">
+           
+              <button className='sb'>LOGOUT</button>
+            </Link>
+          ) : (
+            <><br></br><br></br><br></br>
+            <h3>IF YOU ARE A USER,CLICK HERE</h3>
+              <Link to="/Login">
+                <button className='sb'><h1>LOGIN</h1></button>
+              </Link>
+            </>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
