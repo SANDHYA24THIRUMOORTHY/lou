@@ -40,7 +40,7 @@ const Sidebar = () => {
             <img src="user.jpg" alt="" />
           </div>
           <div className="user-details">
-            <p className="title">Welcome</p>
+            <h3><p className="title">Welcome</p></h3>
             <p className="name"></p>
           </div>
         </div>
@@ -49,21 +49,19 @@ const Sidebar = () => {
             <p className="title">Main</p>
             <ul>
               <li>
-                <a href="#">
                   <i className="icon ph-bold ph-house-simple"></i>
                   <Link to="/req">
                   <span className="text">Profile</span>
                   </Link>
-                </a>
               </li>
               <li>
-              <a href="#">
+              
               <i className="icon ph-bold ph-user"></i>
               <Link to="/trans">
                 <span className="text">Transaction History</span>
                 </Link>
                 <i className="arrow ph-bold ph-caret-down"></i>
-                </a>
+              
                 <ul className="sub-menu">
                   <li>
                     <a href="#">
@@ -84,45 +82,15 @@ const Sidebar = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
                   <i className="icon ph-bold ph-calendar-blank"></i>
                   <Link to="/loan">
                   <span className="text">Loan</span>
                   </Link>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="icon ph-bold ph-chart-bar"></i>
-                  <span className="text">Income</span>
-                  <i className="arrow ph-bold ph-caret-down"></i>
-                </a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="#">
-                      <span className="text">Earnings</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <span className="text">Funds</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <span className="text">Declines</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <span className="text">Payouts</span>
-                    </a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </div>
           <div className="menu">
+          <br></br><br></br>
             <p className="title">Settings</p>
             <ul>
               <li>
