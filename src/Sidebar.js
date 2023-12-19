@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -53,10 +54,12 @@ const Sidebar = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="icon ph-bold ph-user"></i>
-                  <span className="text">Transaction</span>
-                  <i className="arrow ph-bold ph-caret-down"></i>
+              <a href="#">
+              <i className="icon ph-bold ph-user"></i>
+              <Link to="/trans">
+                <span className="text">Transaction</span>
+                </Link>
+                <i className="arrow ph-bold ph-caret-down"></i>
                 </a>
                 <ul className="sub-menu">
                   <li>
