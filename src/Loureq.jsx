@@ -80,6 +80,7 @@ const Loureq = () => {
                 <input
                   type="text"
                   name="name1"
+                  placeholder='name in aadhar card'
                   value={signupDetails.name1}
                   onChange={handleInputChange}
                   required
@@ -117,6 +118,7 @@ const Loureq = () => {
                 <input
                     type="number"
                     name="aadharno1"
+                    placeholder='aadhar no'
                   value={signupDetails.aadharno1}
                   onChange={handleInputChange}
                     required
@@ -130,6 +132,7 @@ const Loureq = () => {
                 <input
                     type="number"
                     name="accno1"
+                    placeholder='account no'
                   value={signupDetails.accno1}
                   onChange={handleInputChange}
                     required
@@ -143,6 +146,7 @@ const Loureq = () => {
                 <input
                   type="tel"
                   name="contact1"
+                  placeholder='mobile no'
                   value={signupDetails.contact1}
                   onChange={handleInputChange}
                   pattern="[0-9]{10}"
@@ -157,6 +161,7 @@ const Loureq = () => {
             <input
             type="email"
             name="email1"
+            placeholder='mail id'
             value={signupDetails.email1}
             onChange={handleInputChange}
             required
@@ -194,6 +199,7 @@ const Loureq = () => {
             <input
             type="text"
             name="address1"
+            placeholder='door no, area, city, state'
             value={signupDetails.address1}
             onChange={handleInputChange}
             required
@@ -208,6 +214,7 @@ const Loureq = () => {
             <input
             type="text"
             name="ty"
+            placeholder='type of loan'
             value={signupDetails.ty}
             onChange={handleInputChange}
             required
@@ -222,6 +229,7 @@ const Loureq = () => {
                 <input
                   type="tel"
                   name="amt"
+                  placeholder='amount in digits'
                   value={signupDetails.amt}
                   onChange={handleInputChange}
                   pattern="[0-9]{10}"
@@ -237,6 +245,7 @@ const Loureq = () => {
                 <input
                     type="text"
                     name="pur"
+                    placeholder='reason for loan'
                   value={signupDetails.pur}
                   onChange={handleInputChange}
                     required

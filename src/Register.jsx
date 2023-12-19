@@ -228,7 +228,7 @@ const Register = () => {
               <td>
                 <input
                     type="text"
-                    name="nation" placeholder='example:Indian'
+                    name="nation" placeholder='ex: Indian'
                   value={signupDetails.nation}
                   onChange={handleInputChange}
                     required
@@ -240,7 +240,7 @@ const Register = () => {
               <td>
                 <input
                     type="text"
-                    name="state" placeholder='ex:Rajasthan'
+                    name="state" placeholder='ex: Rajasthan'
                   value={signupDetails.state}
                   onChange={handleInputChange}
                     required
@@ -252,7 +252,7 @@ const Register = () => {
               <td>
                 <input
                     type="text"
-                    name="address" placeholder='door no,area,city,state'
+                    name="address" placeholder='door no, area, city, state'
                   value={signupDetails.address}
                   onChange={handleInputChange}
                     required
