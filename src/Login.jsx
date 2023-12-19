@@ -26,10 +26,10 @@ function Login() {
 
     if (foundUsers.length > 0) {
       setUser(foundUsers[0]);
-      navigate('/profile')
+      navigate('/req')
     } else {
       alert('Account not found please register')
-      navigate('/reg')
+      navigate('/register')
     }
   };
 

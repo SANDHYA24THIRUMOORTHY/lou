@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { UserContext } from './UserContext';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
 
@@ -39,8 +40,8 @@ const Sidebar = () => {
             <img src="user.jpg" alt="" />
           </div>
           <div className="user-details">
-            <p className="title">web developer</p>
-            <p className="name">John Doe</p>
+            <p className="title">Welcome</p>
+            <p className="name"></p>
           </div>
         </div>
         <div className="nav">
@@ -50,14 +51,16 @@ const Sidebar = () => {
               <li>
                 <a href="#">
                   <i className="icon ph-bold ph-house-simple"></i>
-                  <span className="text">Dashboard</span>
+                  <Link to="/req">
+                  <span className="text">Profile</span>
+                  </Link>
                 </a>
               </li>
               <li>
               <a href="#">
               <i className="icon ph-bold ph-user"></i>
               <Link to="/trans">
-                <span className="text">Transaction</span>
+                <span className="text">Transaction History</span>
                 </Link>
                 <i className="arrow ph-bold ph-caret-down"></i>
                 </a>

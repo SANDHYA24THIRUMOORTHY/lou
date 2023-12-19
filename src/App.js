@@ -6,6 +6,8 @@ import Register from './Register';
 import Transaction from './Transaction';
 import Sidebar from './Sidebar';
 import { UserProvider } from './UserContext';
+import Loureq from './Loureq';
+import Loudoc from './Loudoc';
 const App = () => {
   return (
     <UserProvider>
@@ -17,6 +19,8 @@ const App = () => {
         <Route path='/register' element={<Register/>}></Route>
         <Route path='/sidebar' element={<Sidebar/>}></Route>
         <Route path='/trans' element={<Transaction/>}></Route>
+        <Route path='/req' element={<Loureq/>}></Route>
+        <Route path='/loudoc' element={<Loudoc/>}></Route>
         
     </Routes>
     </BrowserRouter>
